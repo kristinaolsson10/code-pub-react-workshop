@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React Basics
+# React Workshop
 
 ## Prerequisites
 
@@ -15,10 +15,9 @@ Npm is distributed with Node.js
 - https://www.npmjs.com/get-npm
 
 
-## Getting the App
+## Running the application on your PC
 In your terminal, navigate to/create a directory where you want to download the source code.
-- Run `git clone https://github.com/kristinaolsson10/react-from-scratch.git`
-
+- Run `git clone https://github.com/kristinaolsson10/code-pub-react-workshop.git`
 
 In your terminal, navigate to the project directory. Once there you can run:
 
@@ -31,6 +30,8 @@ The page will reload automatically if you make code changes.<br>
 You will also be able to see any lint errors in the console.
 
 ## Workshop
+
+Look for comments in the code for hints on how to implement the following.
 
 1. Add the `AlbumCard` component to the app
    1. Import the `AlbumCard` component
