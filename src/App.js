@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
-import AlbumCard from './components/AlbumCard';
-import AlbumDetails from './components/AlbumDetails';
 import SearchBar from './components/SearchBar';
 import { fetchAlbumData } from './utils/data-utils';
 import { albumContainerStyle } from './styles';
+// 1.1 import the AlbumCard from components here
+
 class App extends React.Component {
 
     constructor() {
@@ -17,40 +17,35 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({
-            albumData : fetchAlbumData()
-        });
+        /* 2.1 Call the fetchAlbumData() function to get an object containing data from spotify-new-releases.json */
+        /* Use this.setState(...) to set albumData */
     }
 
     handleSearchResults = (searchResults) => this.setState({ filteredAlbumData: searchResults })
 
-    handleAlbumClick = (album) => this.setState({ selectedAlbum: album })
-
-    handleReturnToList = () => this.setState({ selectedAlbum: undefined })
+    handleAlbumClick = (album) => ( { /* 5 Add selected album to the state */ } )
 
     render() {
-        const { albumData, filteredAlbumData, selectedAlbum } = this.state;
+        const { albumData, filteredAlbumData } = this.state;
         const albums = filteredAlbumData.length > 0 ? filteredAlbumData : albumData;
         return (
             <div style={{ textAlign: 'center' }}>
                 <Header />
                 <div>
-                    { !!selectedAlbum ? (
-                        <AlbumDetails album={selectedAlbum} onReturnToList={this.handleReturnToList} />
-                    ) :
-                        (
-                            <div>
-                                <SearchBar albumData={albumData} onFilter={this.handleSearchResults} />
-                                <div id="album-list-container" style={albumContainerStyle}>
-                                    {
-                                        albums ? albums.map(((album, index) => {
-                                            return <AlbumCard key={index} album={album} onClickAlbum={this.handleAlbumClick} />
-                                        })) : "Loading..."
-                                    }
-                                </div>
-                            </div>
-                        )
-                    };
+                    <SearchBar albumData={albumData} onFilter={this.handleSearchResults} />
+
+                    <h2>This is where your task begins! Edit App.js and save to reload! </h2>
+
+                    { /* 3.1 Add album container style */ }
+                    <div id="album-list-container" style={albumContainerStyle}>
+                        { /* Loop through albums */ }
+                        { 
+                            albums.map((album, index) => (
+                                /* Pass the album variable into the AlbumCard component as a prop */
+                                <div key={index}>{/* Use the AlbumCard component here */}</div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         )

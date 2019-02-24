@@ -36,12 +36,14 @@ You will also be able to see any lint errors in the console.
    1. Import the `AlbumCard` component
    1. Add the `AlbumCard` component
 
-1. Use real data from Spotify
+1. Use real data from Spotify to get album list
+    1. Fetch album data into the state in  CompnentDidMount in App.js
+    1. The app should now be able to print several AlbumCard components
 
-   1. Add the name of the album
-   1. Replace the placeholder image with the album cover
+1. Make the `AlbumCard` component show something more meaningful
+   1. Print image, album name and the name of the artists
 
-   💡 Have a look at spotify-new-releases.json file to see what data is available
+   💡 Have a look at spotify-new-releases.json file to see what data is available. You access the data from the album prop, for example: ```album.images[1].url``` will get you the url for an appropriate album cover image.
 
 1. Make it look great ✨
 
@@ -51,9 +53,18 @@ You will also be able to see any lint errors in the console.
 
    💡 Use the styles we have imported for you
 
-1. Create your own component called `AlbumDetails`, visible when you've clicked an album in the list
+1. Create your own component called `AlbumDetails` visible when you've clicked an album in the list
     1. Create the new component
-    1. Display title, image and a link to open the album in Spotify (external_urls.spotify in the json)
+    1. Display for example title, image and a link to open the album in Spotify (album.external_urls.spotify in the json)
+    1. Complete the handleAlbumClick function and send it into the AlbumCard and use it in an onClick event
+    1. Import `AlbumDetails` in App.js and adapt the render function to display AlbumDetails when an album has been selected
 
 ## Learn more
-- Nothing here yet!
+
+- [style](https://reactjs.org/docs/faq-styling.html)
+- [map function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- {} → [curly braces](https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react)
+- <> → [JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [passing functions](https://reactjs.org/docs/faq-functions.html)
+- [state](https://reactjs.org/docs/faq-state.html)
+- [json files](https://fileinfo.com/extension/json)
