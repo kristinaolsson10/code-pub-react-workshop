@@ -87,3 +87,4 @@ Look for comments in the code for hints on how to implement the following.
 - [passing functions](https://reactjs.org/docs/faq-functions.html)
 - [state](https://reactjs.org/docs/faq-state.html)
 - [json files](https://fileinfo.com/extension/json)
+- [handling events](https://reactjs.org/docs/handling-events.html)
