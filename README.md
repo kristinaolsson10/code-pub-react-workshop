@@ -2,20 +2,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React Workshop
 
-## Prerequisites
+## Complete the workshop on CodeSandbox
+
+Navigate to `this link` and get started instantly. When you save a change a fork of the original sandbox will automatically be created so that you get your own copy to work on. 
+
+   💡 You might want to consider copying the url to your own fork and saving it somewhere so it's easy to find again.
+
+## Complete the workshop on you own PC
+
+### Prerequisites
 
 - To use this application you need to install Git and Node.js + NPM on your local machine.
 - You will also need a text editor, such as Visual Studio Code.
 
-### Install Git
+#### Install Git
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-### Install Node
+#### Install Node
 Npm is distributed with Node.js
 - https://www.npmjs.com/get-npm
 
+### Get the code
 
-## Running the application on your PC
 In your terminal, navigate to/create a directory where you want to download the source code.
 - Run `git clone https://github.com/kristinaolsson10/code-pub-react-workshop.git`
 
