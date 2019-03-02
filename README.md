@@ -41,6 +41,10 @@ You will also be able to see any lint errors in the console.
 
 ## Workshop
 
+This is what we're building:
+
+![Our music app](Playlist.png)
+
 Look for comments in the code for hints on how to implement the following.
 
 1. Add the `AlbumCard` component to the app
