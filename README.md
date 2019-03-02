@@ -43,7 +43,7 @@ You will also be able to see any lint errors in the console.
 
 This is what we're building:
 
-![Our music app](Playlist.png)
+<img src="Playlist.png" alt="Preview" width="550"/>
 
 Look for comments in the code for hints on how to implement the following.
 
