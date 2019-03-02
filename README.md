@@ -6,7 +6,7 @@ To save time I recommend completing this workshop in CodeSandbox, unless you alr
 
 ## Complete the workshop on CodeSandbox
 
-Navigate to `this link` and get started instantly. When you save a change a fork of the original sandbox will automatically be created so that you get your own copy to work on. 
+Navigate to https://codesandbox.io/s/github/kristinaolsson10/code-pub-react-workshop and get started instantly. When you save a change a fork of the original sandbox will automatically be created so that you get your own copy to work on. 
 
    💡 You might want to consider copying the url to your own fork and saving it somewhere so it's easy to find again.
 
