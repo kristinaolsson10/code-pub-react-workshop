@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React Workshop
 
+To save time I recommend completing this workshop in CodeSandbox, unless you already have everything you need installed on your laptop including Git, Node/npm and your favourite text editor. 
+
 ## Complete the workshop on CodeSandbox
 
 Navigate to `this link` and get started instantly. When you save a change a fork of the original sandbox will automatically be created so that you get your own copy to work on. 
