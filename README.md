@@ -52,9 +52,9 @@ Look for comments in the code for hints on how to implement the following.
 1. Make the `AlbumCard` component show something more meaningful
    1. Print image, album name and the name of the artists
 
-   💡 Have a look at spotify-new-releases.json file to see what data is available. You access the data from the album prop, for example: ```album.images[1].url``` will get you the url for an appropriate album cover image.
+   💡 Have a look at spotify-new-releases.json file to see what data is available. You access the data from the album prop that you sent in, for example: ```album.images[1].url``` will get you the url for an appropriate album cover image. To print the name of all artists you need to loop the ```album.artists``` array. You can use the map function to do that `album.artists.map((artist, index) => {})`.
 
-1. Make it look great ✨
+1. Make it look awesome ✨
 
    1. Beautify the album list container
    1. Beautify the album card
@@ -67,6 +67,10 @@ Look for comments in the code for hints on how to implement the following.
     1. Display for example title, image and a link to open the album in Spotify (album.external_urls.spotify in the json)
     1. Complete the handleAlbumClick function and send it into the AlbumCard and use it in an onClick event
     1. Import `AlbumDetails` in App.js and adapt the render function to display AlbumDetails when an album has been selected
+
+1. Ideas for continuing on your own
+    1. How could you use this album list to create your own playlist with only the albums that you want?
+    1. 
 
 ## Learn more
 

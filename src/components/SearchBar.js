@@ -12,6 +12,7 @@ class SearchBar extends React.Component {
           });
           this.props.onFilter(results)
         }}
+        placeholder="Type album name or artist..."
       />
     )
   }

@@ -23,7 +23,7 @@ class App extends React.Component {
 
     handleSearchResults = (searchResults) => this.setState({ filteredAlbumData: searchResults })
 
-    handleAlbumClick = (album) => ( { /* 5 Add selected album to the state */ } )
+    handleAlbumClick = (album) => ( { /* 5 Set selected album on the state */ } )
 
     render() {
         const { albumData, filteredAlbumData } = this.state;
@@ -38,11 +38,11 @@ class App extends React.Component {
 
                     { /* 3.1 Add album container style */ }
                     <div id="album-list-container" style={albumContainerStyle}>
-                        { /* Loop through albums */ }
+                        { /* Looping through the albums */ }
                         { 
                             albums.map((album, index) => (
-                                /* Pass the album variable into the AlbumCard component as a prop */
-                                <div key={index}>{/* Use the AlbumCard component here */}</div>
+                                /* 1.2 Pass the album variable into the AlbumCard component as a prop */
+                                <div key={index}>{/* 1.2 Use the AlbumCard component here */}</div>
                             ))
                         }
                     </div>
