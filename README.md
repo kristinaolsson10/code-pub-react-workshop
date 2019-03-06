@@ -43,7 +43,7 @@ You will also be able to see any lint errors in the console.
 
 This is what we're building:
 
-<img src="src/images/Playlist.png" alt="Preview" width="550"/>
+<img src="src/images/code-pub-final.png" alt="Preview" width="550"/>
 
 Look for comments in the code for hints on how to implement the following.
 
@@ -70,11 +70,13 @@ Look for comments in the code for hints on how to implement the following.
 
    💡 Use the styles we have imported for you
 
-1. Create your own component called `AlbumDetails` visible when you've clicked an album in the list
+1. Advances - Create your own component called `AlbumDetails` visible when you've clicked an album in the list
     1. Create the new component
     1. Display for example title, image and a link to open the album in Spotify (album.external_urls.spotify in the json)
     1. Complete the handleAlbumClick function and send it into the AlbumCard and use it in an onClick event
     1. Import `AlbumDetails` in App.js and adapt the render function to display AlbumDetails when an album has been selected
+
+<img src="src/images/code-pub-album-details.png" alt="Preview" width="550"/>
 
 1. Ideas for continuing on your own
     1. How could you use this album list to create your own playlist with only the albums that you want?
