@@ -70,7 +70,7 @@ Look for comments in the code for hints on how to implement the following.
 
    💡 Use the styles we have imported for you
 
-1. Advances - Create your own component called `AlbumDetails` visible when you've clicked an album in the list
+1. Advanced - Create your own component called `AlbumDetails` visible when you've clicked an album in the list
     1. Create the new component
     1. Display for example title, image and a link to open the album in Spotify (album.external_urls.spotify in the json)
     1. Complete the handleAlbumClick function and send it into the AlbumCard and use it in an onClick event
