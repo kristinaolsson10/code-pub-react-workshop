@@ -74,7 +74,7 @@ Look for comments in the code for hints on how to implement the following.
     1. Create the new component
     1. Display for example title, image and a link to open the album in Spotify (album.external_urls.spotify in the json)
     1. Complete the handleAlbumClick function and send it into the AlbumCard and use it in an onClick event
-    1. Import `AlbumDetails` in App.js and adapt the render function to display AlbumDetails when an album has been selected
+    1. Import `AlbumDetails` in App.js and adapt the render function to display AlbumDetails instead of the list when an album has been selected (for instance { !!selectedAlbum ? (<code to render album details>) : (<code to render album list>) } )
 
 <img src="src/images/code-pub-album-details.png" alt="Preview" width="550"/>
 
