@@ -48,11 +48,11 @@ This is what we're building:
 Look for comments in the code for hints on how to implement the following.
 
 1. Add the `AlbumCard` component to the app
-   1. Import the `AlbumCard` component
-   1. Add the `AlbumCard` component
+   1. Import the `AlbumCard` component in App.js
+   1. Add the `AlbumCard` component in the render function
 
 1. Use real data from Spotify to get album list
-    1. Fetch album data into the state in  ComponentDidMount in App.js
+    1. Fetch album data into the state in ComponentDidMount in App.js
     1. The app should now be able to print several AlbumCard components
 
 <img src="src/images/album-first-render-screenshot.png" alt="Preview" width="550"/>
